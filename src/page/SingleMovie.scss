@@ -1,0 +1,67 @@
+.BOX {
+    display: block;
+    width: 100%;
+
+    .Backdrop {
+        width: 100%;
+        padding: .5rem 1rem;
+        height: 60rem;
+    }
+
+    .FLEX {
+        display: flex;
+        padding-left: 1rem;
+
+        img {
+            width: 15.5rem;
+            margin: .6rem 0;
+        }
+
+        .detail {
+
+            margin: .5rem 0 1rem 2rem;
+
+            #genre {
+                color: rgba(14, 99, 190, 1);
+                position: relative;
+                top: .8rem;
+                right: .3rem;
+            }
+
+            p {
+                padding-top: .6rem;
+
+                span {
+                    margin-left: .4rem;
+                }
+            }
+
+            .over {
+                color: #ffffffc8;
+            }
+        }
+
+    }
+
+    .singletitle {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width:600px) {
+    .BOX .Backdrop {
+        height: 35rem;
+    }
+
+    .detail .over {
+        padding: 0 .5rem 0 0;
+        font-size: 1.3rem;
+    }
+
+    .BOX img {
+        height: 27rem;
+    }
+}

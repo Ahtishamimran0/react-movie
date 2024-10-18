@@ -6,6 +6,7 @@ function Footer() {
             <div className="footer">
                 <p> Copyright © 2024 MOVIE TIME moviesfree.net. All Rights Reserved</p>
             </div>
+
         </>
     )
 }

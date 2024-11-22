@@ -1,0 +1,25 @@
+.ErrorShow {
+    h1 {
+        font-weight: 500;
+        letter-spacing: .2rem;
+        padding: .6rem;
+    }
+
+    margin-top: 25rem;
+    color: rgba(255, 255, 255, 0.891);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 15rem;
+
+}
+
+.Go_back {
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 10rem;
+    border: none;
+    border-radius: .5rem;
+    height: 2rem;
+}

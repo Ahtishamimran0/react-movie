@@ -1,0 +1,72 @@
+.BOX {
+    padding: 0 1.5rem;
+    display: block;
+
+    .Backdrop {
+        width: 100%;
+        height: 60rem;
+    }
+
+    .FLEX {
+        display: flex;
+        width: 65vw;
+
+        img {
+            width: 15.5rem;
+            margin-top: .6rem;
+        }
+
+        .detail {
+            padding-left: 2rem;
+            margin-top: .5rem;
+
+
+            .singleOver {
+                font-style: italic;
+                color: #ffffff99;
+                text-align: left;
+            }
+
+            .genre {
+                color: rgba(14, 99, 190, 1);
+                position: relative;
+                top: .8rem;
+                right: .3rem;
+            }
+
+            p {
+                margin-top: .6rem;
+
+                span {
+                    margin-left: .4rem;
+                    color: #ffffffce;
+                }
+            }
+
+            .over {
+                color: #ffffffac;
+            }
+        }
+    }
+
+    .singletitle {
+        font-size: 2.2rem;
+        letter-spacing: .1rem;
+    }
+
+}
+
+@media(max-width:600px) {
+    .BOX .Backdrop {
+        height: 35rem;
+    }
+
+    .singleOver {
+        font-size: 1.3rem;
+        width: 80vw;
+    }
+
+    .singleImage {
+        display: none;
+    }
+}
